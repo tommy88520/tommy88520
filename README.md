@@ -1,7 +1,7 @@
 ### Hi there 👋
 # Wellcome
 
-I am Huang Yan Ming, a full-stack developer from Taiwan, currently studying at Chenchi University, majoring in inInstitute of Development Studies. 
+I am Huang Yan Ming, a full-stack developer from Taiwan, currently studying at Chengchi University, majoring in inInstitute of Development Studies. 
 
 我是黃彥銘，一名來自台灣的全端工程師，目前就讀於政治大學，就讀國家發展研究所。
 
