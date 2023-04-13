@@ -55,10 +55,9 @@ You can visit my portfolio website on [https://tommy88520.github.io/profile](htt
 
 ![](https://img.shields.io/badge/-Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white)
 
-## learning Skills
+## Learning Skills
 ![](https://img.shields.io/badge/-Golang-00ADD8?style=for-the-badge&logo=go&logoColor=white)
 ![](https://img.shields.io/badge/-Gorm-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-## learning Skills
 
 ### 📫 How to reach me:
 
