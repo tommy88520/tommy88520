@@ -1,9 +1,9 @@
 ### Hi there 👋
 # Wellcome
 
-I am Huang Yan Ming, a full-stack developer from Taiwan, currently studying at Chengchi University, majoring in inInstitute of Development Studies. 
+I am Huang Yan Ming, a full-stack developer from Muzha, Taipei, currently graduated from theChengchi University, majoring in inInstitute of Development Studies. 
 
-我是黃彥銘，一名來自台灣的全端工程師，目前就讀於政治大學，就讀國家發展研究所。
+我是黃彥銘，一名來自台北木柵的全端工程師，畢業於政大國家發展研究所。
 
 You can visit my portfolio website on 
 New :[https://huangyanming.com/](https://huangyanming.com/) !
@@ -28,6 +28,7 @@ Old : [https://tommy88520.github.io/profile](https://tommy88520.github.io/profil
 ![](https://img.shields.io/badge/-Zustand-8DD6F9?style=for-the-badge)
 ![](https://img.shields.io/badge/-Nuxt-00DC82?style=for-the-badge&logo=Nuxt.js&logoColor=white&link=https://nuxt.com)
 ![](https://img.shields.io/badge/-Vue-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)
+![](https://img.shields.io/badge/-GraphQL-E10098?style=for-the-badge&logo=GraphQL&logoColor=white&link=https://graphql.org/)
 
 ## Backend Skills
 
@@ -36,6 +37,7 @@ Old : [https://tommy88520.github.io/profile](https://tommy88520.github.io/profil
 ![](https://img.shields.io/badge/-Mongo%20DB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![](https://img.shields.io/badge/-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![](https://img.shields.io/badge/-swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=white)
+![](https://img.shields.io/badge/-Jest-C21325?style=for-the-badge&logo=Jest&logoColor=white&link=https://jestjs.io/)
 
 ## Operation Skills
 
