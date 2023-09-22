@@ -5,9 +5,14 @@ I am Huang Yan Ming, a full-stack developer from Taiwan, currently studying at C
 
 我是黃彥銘，一名來自台灣的全端工程師，目前就讀於政治大學，就讀國家發展研究所。
 
-You can visit my portfolio website on [https://tommy88520.github.io/profile](https://tommy88520.github.io/profile) !
+You can visit my portfolio website on 
+New :[https://huangyanming.com/](https://huangyanming.com/) !
+Old : [https://tommy88520.github.io/profile](https://tommy88520.github.io/profile) !
 
-歡迎參觀我的個人作品集網站 [https://tommy88520.github.io/profile/](https://tommy88520.github.io/profile/) !
+歡迎參觀我的個人作品集網站 
+
+New :[https://huangyanming.com/](https://huangyanming.com/) !
+Old : [https://tommy88520.github.io/profile](https://tommy88520.github.io/profile) !
 
 ## Languages
 
