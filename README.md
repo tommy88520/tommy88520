@@ -24,6 +24,7 @@ Old : [https://tommy88520.github.io/profile](https://tommy88520.github.io/profil
 
 ## Frontend Skills
 
+![](https://img.shields.io/badge/-Next-000000?style=for-the-badge&logo=Next.js&logoColor=white&link=https://nextjs.org/)
 ![](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=white&link=https://github.com/facebook/react)
 ![](https://img.shields.io/badge/-Zustand-8DD6F9?style=for-the-badge)
 ![](https://img.shields.io/badge/-Nuxt-00DC82?style=for-the-badge&logo=Nuxt.js&logoColor=white&link=https://nuxt.com)
@@ -35,6 +36,7 @@ Old : [https://tommy88520.github.io/profile](https://tommy88520.github.io/profil
 ![](https://img.shields.io/badge/-NestJS-E0234E?style=for-the-badge&logo=NestJS&logoColor=white&link=https://nestjs.com)
 ![](https://img.shields.io/badge/-Express-000000?style=for-the-badge&logo=express&link=https://expressjs.com/)
 ![](https://img.shields.io/badge/-Mongo%20DB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![](https://img.shields.io/badge/-PostgreSQL-4169E1?style=for-the-badge&logo=PostgreSQL&logoColor=white&link=https://www.postgresql.org/)
 ![](https://img.shields.io/badge/-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![](https://img.shields.io/badge/-swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=white)
 ![](https://img.shields.io/badge/-Jest-C21325?style=for-the-badge&logo=Jest&logoColor=white&link=https://jestjs.io/)
