@@ -5,14 +5,7 @@ I am Huang Yan Ming, a full-stack developer from Muzha, Taipei, currently gradua
 
 我是黃彥銘，一名來自台北木柵的全端工程師，畢業於政大國家發展研究所。
 
-You can visit my portfolio website on 
-New :[https://huangyanming.com/](https://huangyanming.com/) !
-Old : [https://tommy88520.github.io/profile](https://tommy88520.github.io/profile) !
-
-歡迎參觀我的個人作品集網站 
-
-New :[https://huangyanming.com/](https://huangyanming.com/) !
-Old : [https://tommy88520.github.io/profile](https://tommy88520.github.io/profile) !
+電商專案：https://anc-13.com
 
 ## Languages
 
