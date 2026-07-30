@@ -1,52 +1,57 @@
-# Hi there 👋 I'm Huang Yan Ming (Tommy)
+# Hi there 👋 我是 Tommy(黃彥銘)
 
-**Viberse Web 前端負責人 | Full-stack E-commerce Developer** 來自台北木柵，畢業於 **國立政治大學 (NCCU)**。具備獨立從零建構高併發電商平台之經驗，擅長整合複雜第三方 API（金物流、搜尋引擎、雲端儲存），並對 **Next.js** 效能優化與現代化 Web 安全性有深入研究。
-
----
-
-## 💼 工作經驗 (Professional Experience)
-
-### **Viberse Web 前端負責人 | 攜利媒體有限公司 (Viberse)**
-*2024/2 - Present* | [viberse.com](https://viberse.com)
-
-- **全模組架構主導**：從零構建官網、Ad Portal、CMS、Blog、Account Settings 等多維度模組。
-- **效能極致化**：整合 Next.js + Zustand + Tailwind，優化資料流循環與組件渲染，平均縮短頁面加載時間 **30%**。
-- **金流整合**：使用 **RevenueCat** 開發整合性金流頁面，確保穩定性與跨裝置兼容性。
-- **沉浸式互動設計**：運用 **GSAP** 實作限時動態 (Stories) 與焦點瀏覽 (Focus Page)，支援全螢幕媒體呈現與影片滾動自動播放。
-- **遊戲化與社交**：開發 Bingo & Tango 遊戲組件與多渠道社交分享功能，顯著提升用戶留存。
+全端工程師,住台北木柵,政大國發所畢業。平常在 Next.js 生態系裡打滾,沒事也喜歡自己找題目來做——電商、遊戲化互動、即時搶座系統都碰過,最近開始玩 AWS,順便把自己的部落格養起來。
 
 ---
 
-## 🚀 核心專案 (Featured Projects)
+## 💼 工作經驗
+
+### **Web 前端負責人 | Viberse**
+*2024/2 - Present*
+
+從零把官網、廣告後台、CMS、部落格這些模組生出來,把 Next.js + Zustand 的資料流跟渲染邏輯抓好,頁面明顯變快(平均縮短 30% 左右);金流串了 RevenueCat,順便玩玩 GSAP 做限時動態跟 Bingo/Tango 小遊戲,想辦法讓大家多留一下。
+
+---
+
+## 🚀 做過的專案
 
 ### **🛒 COME.ANC13 代購網站**
-*連結：[anc-13.com](https://anc-13.com)* | **全端獨立開發**
-一套高效能、可擴展的 B2C 電商解決方案，涵蓋完整購物路徑與自動化後台。
+*連結:[anc-13.com](https://anc-13.com)*
 
-**🛠 核心系統架構與技術細節**
-- **搜尋與推薦系統**：整合 **Algolia 全文檢索** 實作毫秒級搜尋；設計異步 Webhook 機制確保資料庫與索引同步的一致性。
-- **金物流自動化**：
-    - **金流**：深度串接 **綠界 (ECPay)** 並攻克 **3D 驗證 (3D Secure)** 在正式環境的跳轉衝突，確保 0 斷點支付體驗。
-    - **物流**：整合四大超商 CVS Map 電子地圖，實作自動化紀錄與一鍵產生寄件編號。
-- **高效能快取架構**：利用 **Redis** 儲存高頻數據（如 Banners），並開發管理介面實作「儲存即清空快取」機制。
-- **雲端基礎設施**：透過 **Cloudflare R2** (S3 API) 與 Presigned URL 實作安全檔案上傳；整合 **NextAuth.js** 實作 Google/LINE 第三方登入。
+自己一個人從頭做的代購電商,購物流程跟後台都包了。整合 Algolia 做即時搜尋、串綠界處理金流跟四大超商電子地圖,還花了不少時間把 3D 驗證在正式環境的跳轉問題抓出來。圖片上傳走 Cloudflare R2,登入用 NextAuth.js 接 Google/LINE。
+
+🛠 比較值得一提的細節:
+- Algolia 全文檢索 + 異步 Webhook,確保資料庫跟搜尋索引不會對不上
+- 綠界 3D 驗證在正式環境的跳轉衝突,查了好一陣子才抓到根因
+- Redis 快取高頻資料(像 Banner),後台改一次資料就自動清快取
+- Cloudflare R2 + Presigned URL 做安全的檔案上傳
+
+### **🏝️ Focus Island 專注島**
+*連結:[focus-island.huangyanming.com](https://focus-island.huangyanming.com/)*
+
+一個「搶座位 + 專注計時」的小網站,想解決「大家說好要一起讀書結果各自散掉」這件事。用 Vue 3 + Golang 做即時搶座,高併發選位靠 Redis Lua Script 處理,不用傳統先讀後寫,人多的時候座位狀態也不會亂掉。
+
+🛠 比較值得一提的細節:
+- Web Worker 獨立計時,分頁切到背景瀏覽器降頻也不會慢半拍
+- Gorilla WebSocket 做房間制廣播,連線生命週期自己管
+- PWA 支援離線使用,專注結束會跳系統通知
+- 前端部署在 Vercel,後端 Docker 化丟到 Kobey,健康檢查跟監控都有顧到
 
 ### **🔍 PTT MacShop 關鍵字監控與通知系統**
-*連結：[部落格文章](https://www.huangyanming.com/blog/aws-ptt-macshop-bot-blocked-by-ip)* | **全 AWS Serverless 架構**
-用 AWS Lambda / DynamoDB / API Gateway / IAM 建置的全 serverless 系統，監控 PTT MacShop 版，依使用者訂閱的關鍵字比對新文章並透過 Discord 即時通知，支援 Web 介面與 Discord Bot 雙入口管理訂閱。
+*連結:[部落格文章](https://www.huangyanming.com/blog/aws-ptt-macshop-bot-blocked-by-ip)*
 
-**🛠 核心系統架構與技術細節**
-- **Serverless 架構**：獨立設計並實作 Lambda + API Gateway + DynamoDB + IAM 全 serverless pipeline，爬取內容、比對關鍵字、透過 Discord API 即時發送通知。
-- **最小權限設計**：為每個 Lambda function 設計獨立 IAM role，權限精確限縮到該函式實際需要存取的 DynamoDB 資料表與操作。
-- **問題排查與應變**：實測發現目標網站封鎖整個 AWS IP 網段，將爬蟲執行位置搬遷到自架排程，AWS 端的資料接收/儲存/通知邏輯完全不受影響。
-- **前端整合**：用 Next.js 16(App Router)+ Discord OAuth2 打造前端登入與訂閱管理介面，透過 Server Action 確保後端 API 金鑰完全不外洩給瀏覽器。
-- **資料可攜性**：開發資料匯出工具，確保系統資料不被鎖定在特定資料庫格式，保留未來遷移彈性。
+想補強 AWS 經驗生出來的練習專案,監控 PTT MacShop 版(二手蘋果產品交易),使用者訂閱關鍵字,新文章符合就發 Discord 通知,網頁跟 Discord 指令都能管理訂閱。整套用 Lambda / API Gateway / DynamoDB 搭起來,做到一半發現 PTT 直接把整個 AWS 網段擋掉,只好把爬蟲搬到自己的電腦上跑,AWS 那邊維持不動。
 
-> 架構設計與問題排查為獨立完成，開發過程搭配 AI 編碼工具（Claude Code）加速實作。
+🛠 比較值得一提的細節:
+- 每個 Lambda 都設計自己的最小權限 IAM role,不共用
+- 前端用 Next.js 16 + Discord OAuth2,API 金鑰全部留在伺服器端,瀏覽器完全看不到
+- 寫了資料匯出工具,確保哪天想換掉 DynamoDB 也不會被綁死
+
+> 這個專案架構設計跟排查問題都是自己來,開發過程有搭配 AI 編碼工具(Claude Code)加速實作。
 
 ---
 
-## 🛠 技術棧 (Tech Stack)
+## 🛠 技術棧
 
 ### **Frontend & Frameworks**
 ![](https://img.shields.io/badge/-Next.js_16-000000?style=for-the-badge&logo=Next.js)
@@ -78,14 +83,16 @@
 
 ---
 
-## 📈 專業亮點 (Professional Highlights)
-- **Scrum Lead**：每週 Sprint 任務如期交付率超過 **95%**，擅長任務估時與跨部門需求釐清。
-- **技術攻堅**：具備處理分散式架構下快取一致性、資料一致性與第三方金流通訊衝突之實戰能力。
-- **全方位開發**：從 UI/UX 互動動畫（GSAP）到後端系統設計、DevOps 部署均能獨立作業。
+## ✨ 其他小事
+
+- Scrum 節奏還算適應,Sprint 準時交付率大概抓在 95% 以上
+- 比較擅長處理那種「架構本身就會出包」的問題:快取跟資料庫對不上、金流卡在奇怪的跳轉、併發下的資料一致性
+- 從畫面上的動畫細節到後端架構、部署,大概都能自己扛
 
 ---
 
-## 📫 聯絡我 (Contact)
+## 📫 找我
+
 - **Email:** tommy8852024@gmail.com
-- **Projects:** [anc-13.com](https://anc-13.com) | [viberse.com](https://viberse.com) | [huangyanming.com](https://www.huangyanming.com)(部落格,技術筆記與心情點滴)
-- **Location:** Muzha, Taipei
+- **看看我做的東西:** [anc-13.com](https://anc-13.com) | [focus-island.huangyanming.com](https://focus-island.huangyanming.com/) | [huangyanming.com](https://www.huangyanming.com)(部落格,技術筆記與心情點滴)
+- **在:** 木柵,台北
