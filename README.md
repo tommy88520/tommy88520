@@ -31,6 +31,19 @@
 - **高效能快取架構**：利用 **Redis** 儲存高頻數據（如 Banners），並開發管理介面實作「儲存即清空快取」機制。
 - **雲端基礎設施**：透過 **Cloudflare R2** (S3 API) 與 Presigned URL 實作安全檔案上傳；整合 **NextAuth.js** 實作 Google/LINE 第三方登入。
 
+### **🔍 PTT MacShop 關鍵字監控與通知系統**
+*連結：[部落格文章](https://www.huangyanming.com/blog/aws-ptt-macshop-bot-blocked-by-ip)* | **全 AWS Serverless 架構**
+用 AWS Lambda / DynamoDB / API Gateway / IAM 建置的全 serverless 系統，監控 PTT MacShop 版，依使用者訂閱的關鍵字比對新文章並透過 Discord 即時通知，支援 Web 介面與 Discord Bot 雙入口管理訂閱。
+
+**🛠 核心系統架構與技術細節**
+- **Serverless 架構**：獨立設計並實作 Lambda + API Gateway + DynamoDB + IAM 全 serverless pipeline，爬取內容、比對關鍵字、透過 Discord API 即時發送通知。
+- **最小權限設計**：為每個 Lambda function 設計獨立 IAM role，權限精確限縮到該函式實際需要存取的 DynamoDB 資料表與操作。
+- **問題排查與應變**：實測發現目標網站封鎖整個 AWS IP 網段，將爬蟲執行位置搬遷到自架排程，AWS 端的資料接收/儲存/通知邏輯完全不受影響。
+- **前端整合**：用 Next.js 16(App Router)+ Discord OAuth2 打造前端登入與訂閱管理介面，透過 Server Action 確保後端 API 金鑰完全不外洩給瀏覽器。
+- **資料可攜性**：開發資料匯出工具，確保系統資料不被鎖定在特定資料庫格式，保留未來遷移彈性。
+
+> 架構設計與問題排查為獨立完成，開發過程搭配 AI 編碼工具（Claude Code）加速實作。
+
 ---
 
 ## 🛠 技術棧 (Tech Stack)
@@ -50,6 +63,14 @@
 ![](https://img.shields.io/badge/-Algolia-003DFF?style=for-the-badge&logo=algolia&logoColor=white)
 ![](https://img.shields.io/badge/-Cloudflare_R2-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 
+### **AWS & Cloud**
+![](https://img.shields.io/badge/-AWS_Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white)
+![](https://img.shields.io/badge/-API_Gateway-FF9900?style=for-the-badge&logo=amazonapigateway&logoColor=white)
+![](https://img.shields.io/badge/-DynamoDB-4053D6?style=for-the-badge&logo=amazondynamodb&logoColor=white)
+![](https://img.shields.io/badge/-AWS_Amplify-FF9900?style=for-the-badge&logo=awsamplify&logoColor=white)
+![](https://img.shields.io/badge/-IAM-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![](https://img.shields.io/badge/-Discord_API-5865F2?style=for-the-badge&logo=discord&logoColor=white)
+
 ### **DevOps & Tools**
 ![](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![](https://img.shields.io/badge/-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
@@ -66,5 +87,5 @@
 
 ## 📫 聯絡我 (Contact)
 - **Email:** tommy8852024@gmail.com
-- **Projects:** [anc-13.com](https://anc-13.com) | [viberse.com](https://viberse.com)
+- **Projects:** [anc-13.com](https://anc-13.com) | [viberse.com](https://viberse.com) | [huangyanming.com](https://www.huangyanming.com)(部落格,技術筆記與心情點滴)
 - **Location:** Muzha, Taipei
