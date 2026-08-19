@@ -14,7 +14,7 @@
 ### **Web 前端負責人 | Viberse**
 *2024/2 - 2026/3*
 
-從零把官網、廣告後台、CMS、部落格這些模組生出來,把 Next.js + Zustand 的資料流跟渲染邏輯抓好,頁面明顯變快(平均縮短 30% 左右);金流串了 RevenueCat,順便玩玩 GSAP 做限時動態跟 Bingo/Tango 小遊戲,想辦法讓大家多留一下。
+獨力主導官網、Web Mobile、CMS、Blog 等多個前端模組的架構與開發,用 Next.js + Zustand 重構組件渲染與資料流,優化 Core Web Vitals,頁面平均載入時間縮短約 30%。深度整合 RevenueCat 訂閱系統,實作端對端付費流程,直接支撐產品的營收路徑;用 GSAP 搭配狀態機邏輯開發限時動態卡片、Bingo & Tango 等遊戲化互動組件,提升使用者黏著度。另外也建置了具備多重過濾與 Infinite Scroll 的搜尋引擎、雙層留言系統,以及讓非技術人員也能上手的後台管理介面。
 
 ---
 
@@ -56,8 +56,9 @@
 
 ### 🌙 更多 side project
 
-再往下是最近生的幾個比較小、比較好玩的東西,細節不全部塞在這裡,收在 [/works](https://www.huangyanming.com/works) 完整清單裡。這段以下由 GitHub Action 每天自動從 [huangyanming.com/api/works](https://www.huangyanming.com/api/works) 同步,不要手動改:
+再往下是最近生的幾個比較小、比較好玩的東西,細節不全部塞在這裡,收在 [/works](https://www.huangyanming.com/works) 完整清單裡:
 
+<!-- 以下由 GitHub Action 每天自動從 https://www.huangyanming.com/api/works 同步(見 .github/workflows/sync-works.yml),不要手動改 -->
 <!-- WORKS:START -->
 - **[食物挑選器](https://food-chosing.huangyanming.com/)**——用定位抓取附近餐廳,依菜系、評分、價位、是否營業中等條件篩選,幫你決定今天吃什麼。
 - **[hey-console](https://www.npmjs.com/package/hey-console)**——一個發布到 npm 的極簡套件:在網站 devtools console 印出客製化的歡迎 banner 彩蛋,內建預設值也能自帶設定。
