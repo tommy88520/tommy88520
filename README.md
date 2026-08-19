@@ -56,11 +56,13 @@
 
 ### 🌙 更多 side project
 
-再往下是最近生的幾個比較小、比較好玩的東西,細節不全部塞在這裡,收在 [/works](https://www.huangyanming.com/works) 完整清單裡:
+再往下是最近生的幾個比較小、比較好玩的東西,細節不全部塞在這裡,收在 [/works](https://www.huangyanming.com/works) 完整清單裡。這段以下由 GitHub Action 每天自動從 [huangyanming.com/api/works](https://www.huangyanming.com/api/works) 同步,不要手動改:
 
-- **[moon-bbq](https://moon-bbq.huangyanming.com/)**——中秋節限定的多人即時同樂頁面。前端 Next.js 部署在 Vercel,即時連線的 Go/Gin + Redis 後端另外部署在 Render(Vercel serverless 撐不住長連線),順便拿它練了一次「什麼時候該拆微服務」的判斷跟 Docker Compose 本機多服務環境
-- **[hey-console](https://www.npmjs.com/package/hey-console)**——第一個真的發布到 npm 的套件,一個網站 console banner 彩蛋,走完一次「寫套件、建置、發布、裝回自己專案驗證」的完整流程
-- **[食物挑選器](https://food-chosing.huangyanming.com/)**——用定位抓附近餐廳,依菜系、評分、營業狀態篩選,決定今天吃什麼
+<!-- WORKS:START -->
+- **[食物挑選器](https://food-chosing.huangyanming.com/)**——用定位抓取附近餐廳,依菜系、評分、價位、是否營業中等條件篩選,幫你決定今天吃什麼。
+- **[hey-console](https://www.npmjs.com/package/hey-console)**——一個發布到 npm 的極簡套件:在網站 devtools console 印出客製化的歡迎 banner 彩蛋,內建預設值也能自帶設定。
+- **[moon-bbq 中秋線上烤肉賞月](https://moon-bbq.huangyanming.com/)**——中秋節限定的多人即時互動網站,免帳號、免付費,挑一桌坐下就能跟同桌的人一起烤肉賞月,即時看到誰也在。
+<!-- WORKS:END -->
 
 ---
 
