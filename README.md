@@ -54,6 +54,14 @@
 
 > 這個專案架構設計跟排查問題都是自己來,開發過程有搭配 AI 編碼工具(Claude Code)加速實作。
 
+### 🌙 更多 side project
+
+再往下是最近生的幾個比較小、比較好玩的東西,細節不全部塞在這裡,收在 [/works](https://www.huangyanming.com/works) 完整清單裡:
+
+- **[moon-bbq](https://moon-bbq.huangyanming.com/)**——中秋節限定的多人即時同樂頁面。前端 Next.js 部署在 Vercel,即時連線的 Go/Gin + Redis 後端另外部署在 Render(Vercel serverless 撐不住長連線),順便拿它練了一次「什麼時候該拆微服務」的判斷跟 Docker Compose 本機多服務環境
+- **[hey-console](https://www.npmjs.com/package/hey-console)**——第一個真的發布到 npm 的套件,一個網站 console banner 彩蛋,走完一次「寫套件、建置、發布、裝回自己專案驗證」的完整流程
+- **[食物挑選器](https://food-chosing.huangyanming.com/)**——用定位抓附近餐廳,依菜系、評分、營業狀態篩選,決定今天吃什麼
+
 ---
 
 ## 🛠 技術棧
@@ -68,8 +76,11 @@
 
 ### **Backend & Middleware**
 ![](https://img.shields.io/badge/-Node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white)
+![](https://img.shields.io/badge/-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![](https://img.shields.io/badge/-WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
 ![](https://img.shields.io/badge/-Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![](https://img.shields.io/badge/-MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![](https://img.shields.io/badge/-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![](https://img.shields.io/badge/-Algolia-003DFF?style=for-the-badge&logo=algolia&logoColor=white)
 ![](https://img.shields.io/badge/-Cloudflare_R2-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
 
@@ -84,6 +95,8 @@
 ### **DevOps & Tools**
 ![](https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![](https://img.shields.io/badge/-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
+![](https://img.shields.io/badge/-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
+![](https://img.shields.io/badge/-npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 ![](https://img.shields.io/badge/-Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
 
 ---
@@ -99,5 +112,5 @@
 ## 📫 找我
 
 - **Email:** tommy8852024@gmail.com
-- **看看我做的東西:** [anc-13.com](https://anc-13.com) | [focus-island.huangyanming.com](https://focus-island.huangyanming.com/) | [huangyanming.com](https://www.huangyanming.com)(部落格,技術筆記與心情點滴)
+- **看看我做的東西:** [huangyanming.com/works](https://www.huangyanming.com/works)(完整作品清單) | [anc-13.com](https://anc-13.com) | [focus-island.huangyanming.com](https://focus-island.huangyanming.com/) | [huangyanming.com](https://www.huangyanming.com)(部落格,技術筆記與心情點滴)
 - **在:** 木柵,台北
